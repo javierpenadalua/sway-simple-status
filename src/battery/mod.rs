@@ -21,7 +21,7 @@ impl Battery {
         let percentage : u32 = content.trim().parse().unwrap();
         let mut color = "green";
 
-        if percentage < 15 {
+        if percentage < 10 {
             color = "red";
         }
 
